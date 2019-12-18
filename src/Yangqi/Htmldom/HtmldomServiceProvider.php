@@ -19,7 +19,7 @@ class HtmldomServiceProvider extends ServiceProvider {
 	public function boot()
 	{
 		if (method_exists($this, 'package')) {
-	        $this->package('yangqi/htmldom');
+	        $this->package('legoraccio/htmldom');
 	    }
 	}
 
