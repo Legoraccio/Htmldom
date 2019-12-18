@@ -10,8 +10,14 @@ Add the following line to the `require` section of `composer.json`:
 ```json
 {
     "require": {
-        "legoraccio/htmldom": "1.0.*"
+        "legoraccio/htmldom": "^1.0"
     }
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Legoraccio/Htmldom"
+        }
+    ],
 }
 ```
 
